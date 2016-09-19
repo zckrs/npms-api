@@ -2,9 +2,9 @@
 {
     apps: [
         {
-            name: 'npms-api',
+            name: 'npms-api-v1',
             script: './server.js',
-            instances: 3,
+            instances: 1,
             env : { NODE_ENV: 'production' },
             max_memory_restart: '1500M'
         },
@@ -13,7 +13,7 @@
         production: {
             user: 'www',
             host: '212.47.226.136',
-            ref: 'origin/master',
+            ref: 'origin/v1',
             repo: 'https://github.com/npms-io/npms-api.git',
             path: '/home/www/npms-api',
             'post-deploy': '\

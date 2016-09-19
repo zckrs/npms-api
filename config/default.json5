@@ -1,7 +1,7 @@
 {
     // Databases & similar stuff
     couchdbNpms: {
-        url: 'http://admin:admin@127.0.0.1:5984/npms',
+        url: 'http://admin:admin@127.0.0.1:5984/npms-v1',
         requestDefaults: { timeout: 15000 }
     },
     elasticsearch: {
@@ -14,7 +14,7 @@
     // server.listen() params
     listen: {
         hostname: '127.0.0.1',
-        port: 3000,
+        port: 3100,
         backlog: null,
     },
 
