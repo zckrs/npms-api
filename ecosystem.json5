@@ -15,7 +15,7 @@
             host: '212.47.226.136',
             ref: 'origin/v1',
             repo: 'https://github.com/npms-io/npms-api.git',
-            path: '/home/www/npms-api',
+            path: '/home/www/npms-api-v1',
             'post-deploy': '\
 cp ../local.json5 ./config/ && \
 npm update --loglevel http --production && \
